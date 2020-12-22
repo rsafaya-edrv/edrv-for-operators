@@ -1,8 +1,29 @@
 ---
 sort: 1
 ---
+# Introduction
+Thanks for choosing eDRV as your network management partner. The aim of this portal is to get you a acquainted with the tools at your disposal for remotely managing and operating your EV Charging network.
 
-# Markdown Elements
+If you need any help please reach out to us at [support@edrv.io](mailto:support@edrv.io).
+
+At eDRV our goal is to simplify the process of developing applications for EV charging. eDRV allows you to connect any OCPP compatible EV charge station to your application without the need for spending weeks and months building your own OCPP compatible messaging protocol. 
+
+## How does it work?
+
+eDRV is an Electic Vehicle Charging Management system built for Small / Medium network operators.
+![eDRV Network](../../assets/images/eDRV_Architecture.png)
+
+eDRV works with any unlocked, OCPP compatible charge station. We have also tested (to date) with over twenty international charge station manufacturers.
+
+## Protocol Compatibility
+
+eDRV is fully compatible with the most popular (90%+ coverage) version of the OCPP protocol. Currently there are very few commercial chargestations that support OCPP 2.0.1. If you are considering adding a 2.0.1 compatible chargestation to your network, please reach out to us.
+
+| Protocol        | eDRV Compatibility  | Details |
+| --------------- | -------------- | ------- |
+| OCPP 1.6J       | Full           |  [1.6J Specification](https://www.openchargealliance.org/protocols/ocpp-16/)|
+| OCPP 2.0.1      | Partial        |  [2.0.1 Specification](https://www.openchargealliance.org/protocols/ocpp-201/)|
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
